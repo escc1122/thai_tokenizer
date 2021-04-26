@@ -40,7 +40,7 @@ def c2(Text):
         k2 = ''
         for idx2, v2 in enumerate(segmens):
             k1 = k1 + v2 + "<br>"
-            k2 = k2 + "<span style='color:"+colors[idx2%2]+"'>" + v2 + "</span>" 
+            k2 = k2 + "<span style='color:"+colors[idx2%2]+";display: inline-block;'>" + v2 + "</span>"
         r = r + v + "<br>"     
         r = r + k2 + "<br>"
         r = r + k1 + "<br>"    
