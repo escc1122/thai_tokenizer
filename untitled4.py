@@ -53,16 +53,4 @@ def c2(Text):
 
 
 
-
-
-
-
-
-    
-
-
-
-
-
-
-app.run()
+app.run(host="0.0.0.0",port=int("8085"))
